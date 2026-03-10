@@ -1,0 +1,97 @@
+html
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>HTML Elements Example</title>
+  </head>
+  <body>
+    <h1 id="top">HTML Elements Demo Page</h1>
+
+    <!-- TABLE OF CONTENTS (In-page links) -->
+    <h2>Table of Contents</h2>
+    <ul>
+      <li><a href="#links">Links</a></li>
+      <li><a href="#images">Images</a></li>
+      <li><a href="#video">Video</a></li>
+      <li><a href="#audio">Audio</a></li>
+    </ul>
+
+    <hr />
+
+    <!-- LINKS SECTION -->
+    <h2 id="links">Links</h2>
+
+    <h3>1. Absolute Link</h3>
+    <p>
+      An absolute link includes the full URL:
+      <a href="https://www.example.com">Visit Example.com</a>
+    </p>
+
+    <h3>2. Local (Relative) Link</h3>
+    <p>
+      A local link points to a file in the same directory:
+      <a href="about.html">About Page (local)</a>
+    </p>
+
+    <h3>3. In-Page (Anchor) Link</h3>
+    <p>
+      An in-page link jumps to a section on the same page:
+      <a href="#top">Back to Top</a> |
+      <a href="#audio">Jump to Audio Section</a>
+    </p>
+
+    <hr />
+
+    <!-- IMAGES SECTION -->
+    <h2 id="images">Images</h2>
+
+    <h3>Image with src and alt attributes</h3>
+    <p>
+      The <code>src</code> attribute specifies the image path;
+      <code>alt</code> provides a text description.
+    </p>
+
+    <img
+      src="https://www.w3schools.com/html/pic_trulli.jpg"
+      alt="Trulli houses in Alberobello, Italy"
+      width="300"
+    />
+
+    <p>Local image example (relative src):</p>
+    <img
+      src="data:image/jpeg;base64,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"
+      alt="A local photo stored in the images folder"
+      width="300"
+    />
+
+    <hr />
+
+    <!-- VIDEO SECTION -->
+    <h2 id="video">Video</h2>
+    <p>A video element with controls:</p>
+
+    <video width="400" controls>
+      <source src="media/sample-video.mp4" type="video/mp4" />
+      <source src="media/sample-video.ogg" type="video/ogg" />
+      Your browser does not support the video element.
+    </video>
+
+    <hr />
+
+    <!-- AUDIO SECTION -->
+    <h2 id="audio">Audio</h2>
+    <p>An audio element with controls:</p>
+
+    <audio controls>
+      <source src="media/sample-audio.mp3" type="audio/mpeg" />
+      <source src="media/sample-audio.ogg" type="audio/ogg" />
+      Your browser does not support the audio element.
+    </audio>
+
+    <hr />
+
+    <p><a href="#top">Back to Top</a></p>
+  </body>
+</html>

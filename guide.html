@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tokyo Travel Guide</title>
+  </head>
+  <body>
+    <h1>Tokyo Travel Guide</h1>
+    <p>
+      Your complete guide to visiting one of the world's most exciting cities.
+    </p>
+    <ul>
+      <li><a href="#overview">Overview</a></li>
+      <li><a href="#attractions">Atractions</a></li>
+      <li><a href="#food">Food & Drink</a></li>
+      <li><a href="#getting-there">Getting There</a></li>
+      <li><a href="#plan">Plan Your Trip</a></li>
+    </ul>
+    <hr />
+    <h2 id="overview">Overview</h2>
+    <img
+      src="tokyo_skyline.jpg"
+      alt="Toyko city skyline at night with Tokyo tower lit up in orange"
+      width="480"
+    />
+
+    <p>
+      Tokyo is the capital of Japan and one of the most visited cities in the
+      world. It blends ancient temples and shrines with towering skyscrapers and
+      cutting-edge technology. Whether you love history, food, fashion, or
+      nature, Tokyo has something for everyone.
+    </p>
+
+    <table>
+      <thead>
+        <style>
+          table,
+          th,
+          td {
+            border: 2px solid black;
+            border-collapse: separate;
+            padding: 1px;
+          }
+          th {
+            text-align: center;
+          }
+        </style>
+        <tr>
+          <th>Detail</th>
+          <th>Information</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Country</td>
+          <td>Japan</td>
+        </tr>
+        <tr>
+          <td>Language</td>
+          <td>Japanese</td>
+        </tr>
+        <tr>
+          <td>Currency</td>
+          <td>Japanese Yen (¥)</td>
+        </tr>
+        <tr>
+          <td>Best Time to Visit</td>
+          <td>March-May (spring) or October-November (autumn)</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>Time Zone</td>
+          <td>JST (UTC+9)</td>
+        </tr>
+      </tfoot>
+    </table>
+    <hr />
+    <h2 id="attractions">Top Attractions</h2>
+    <p>
+      Tokyo has hundreds of things to see and do. Here are the must-see
+      highlights:
+    </p>
+
+    <ol>
+      <li>
+        Senso-ji Temple - Tokyo's oldest and most famous Buddhist temple in
+        Asakusa
+      </li>
+      <li>Shibuya Crossing - The world's busiest pedestrian intersection</li>
+      <li>
+        Tokyo Skytree - A 634-metre broadcasting tower with observation decks
+      </li>
+      <li>
+        Shinjuku Gyoen - A beautiful national garden perfect for cherry blossom
+        season
+      </li>
+      <li>
+        Harajuku - Famous for unique street fashion and Takeshita Street
+        shopping
+      </li>
+    </ol>
+
+    <img
+      src="Senso-ji.jpg"
+      alt="Temple gate with lantern and crowds of tourists"
+      width="480"
+    />
+
+    <p>
+      For more information, visit the offical tourism website:
+      <a href="https://www.gotokyo.org">Go Tokyo</a>
+    </p>
+    <hr />
+
+    <h2 id="food">Food & Drink</h2>
+    <p>
+      Tokyo has more Michelin-starred restaurants than any other city in the
+      world. Here are some foods you must try:
+    </p>
+    <ul>
+      <li>Ramen - Rich noodle soup available in dozens of regional styles</li>
+      <li>
+        Sushi & Sashimi – Fresh fish served at everything from conveyor belt
+        restaurants to high-end counters
+      </li>
+      <li>Takoyaki - Grilled octopus balls, a popular street food snack</li>
+      <li>Matcha everything – Green tea ice cream, cakes, lattes, and more</li>
+      <li>
+        Yakitori - Grilled chicken skewers, best enjoyed at a local izakaya
+      </li>
+    </ul>
+    <p>
+      See our <a href="resturants.html">Recommended Resturants</a> page for a
+      full list.
+    </p>
+    <hr />
+    <h2 id="getting-there">Getting There</h2>
+    <p>Tokyo is served by two major international airports:</p>
+
+    <table>
+      <thead>
+        <style>
+          table,
+          th,
+          td {
+            border: 2px solid black;
+            border-collapse: separate;
+            padding: 1px;
+          }
+          th {
+            text-align: center;
+          }
+        </style>
+        <tr>
+          <th>Airport</th>
+          <th>Code</th>
+          <th>Distance from City Centre</th>
+          <th>Travel time by Train</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Narita International Airport</td>
+          <td>NRT</td>
+          <td>60 km</td>
+          <td>~60 minutes</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <td>Haneda Airport</td>
+        <td>HND</td>
+        <td>14 km</td>
+        <td>~25 minutes</td>
+      </tfoot>
+    </table>
+    <p>
+      Once in the city, the Tokyo Metro and JR train lines will take you almost
+      anywhere. Consider purchasing a <strong>Suica card</strong> for easy
+      tap-and-go travel on all trains and buses.
+    </p>
+    <hr />
+    <h2 id="plan">Plan Your Trip</h2>
+    <p>
+      Tell us about your trip and we will send you a personalised travel
+      itinerary!
+    </p>
+
+    <form>
+      <label for="Name">Full Name:</label>
+      <input type="text" id="Name" required placeholder="Your Full Name" />
+      <p></p>
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" required placeholder="you@example.com" />
+      <p></p>
+      <label for="arrival">Arrival date:</label>
+      <input type="date" id="arrival" />
+      <p></p>
+      <label for="nights">Number of Nights</label>
+      <input type="number" id="nights" min="1" max="30" placeholder="e.g 7" />
+      <p>What kind of traveller are you?</p>
+      <input type="radio" name="traveller" id="solo" value="solo" required />
+      <label for="solo">Solo</label>
+      <br />
+      <input
+        type="radio"
+        name="traveller"
+        id="couple"
+        value="couple"
+        required
+      />
+      <label for="couple">Couple</label>
+      <br />
+      <input
+        type="radio"
+        name="traveller"
+        id="family"
+        value="family"
+        required
+      />
+      <label for="family">Family</label>
+      <br />
+      <input type="radio" name="traveller" id="group" value="group" required />
+      <label for="group">Group</label>
+      <p></p>
+      <label for="interest">Main interest</label>
+      <select name="intersest" id="interest">
+        <option value="" selected disabled>--Choose one--</option>
+        <option value="culture">Culture & History</option>
+        <option value="food">Food & Drink</option>
+        <option value="shopping">Shopping & Fashion</option>
+        <option value="nature">Nature & Parks</option>
+        <option value="technology">Technology & Anime</option>
+      </select>
+      <p></p>
+      <label for="notes">Anything else we should know?</label>
+      <br />
+      <textarea
+        name="notes"
+        id="notes"
+        placeholder="Dietary requirements, accessibility needs, special requests."
+        rows="4"
+        cols="50"
+      ></textarea>
+      <p></p>
+      <button type="submit">Send my Itinerary</button>
+      <button type="reset">Clear Form</button>
+    </form>
+    <hr />
+    <footer>
+      <a href="#top">Back to Top</a> |
+      <a href="resturants.html">Resturants</a> |
+      <a href="https://www.gotokyo.org">Official Tokyo Tourism Site</a> |
+    </footer>
+  </body>
+</html>
